@@ -20,6 +20,15 @@ img {
   width: 100%;
 }
 
+/* LAYOUT */
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* HEADER */
 
 .header-navbar {
@@ -113,4 +122,18 @@ img {
 h1 {
   color: black;
   font-size: 6rem;
+}
+
+/* MAIN */
+
+main {
+  flex-grow: 1;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: blue;
+  min-height: 150px;
+  border: 1px dashed black;
 }
