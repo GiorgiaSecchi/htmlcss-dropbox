@@ -130,6 +130,52 @@ main {
   flex-grow: 1;
 }
 
+main > .container {
+  width: 1200px;
+  padding: 20px;
+}
+
+/* BUSINESS PLAN SECTION */
+
+.biz-plan-type > .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.biz-plan-type {
+  display: flex;
+
+  background-color: grey;
+  min-height: 100px;
+  border: 1px dashed black;
+}
+
+.biz-plan-type .card {
+  width: 30%;
+
+  background-color: lightcyan;
+  min-height: 500px;
+  border: 1px dashed black;
+}
+
+/* .card {
+  background-color: lightcyan;
+  min-height: 500px;
+  border: 1px dashed black;
+} */
+
+.card-header {
+  padding: 10px;
+
+  background-color: darksalmon;
+  min-height: 50px;
+  border: 1px dashed black;
+}
+
 /* FOOTER */
 
 footer {
