@@ -81,6 +81,8 @@ img {
 
 .hero-section .hero-content {
   flex-basis: 30%;
+  padding-top: 10px;
+  line-height: 25px;
 
   background-color: cadetblue;
   border: 1px dashed black;
@@ -88,9 +90,24 @@ img {
 
 .hero-section .hero-img {
   flex-basis: 70%;
+  position: relative;
 
   background-color: gold;
   border: 1px dashed black;
+}
+
+.hero-btn {
+  margin: 20px 0 20px 0;
+  padding: 8px;
+}
+
+.hero-section .arrow-down {
+  align-content: end;
+  margin-top: 40px;
+
+  background-color: darkgreen;
+  border: 1px dashed black;
+  min-height: 60px;
 }
 
 h1 {
