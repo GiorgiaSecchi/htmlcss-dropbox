@@ -20,6 +20,12 @@ img {
   width: 100%;
 }
 
+.btn {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
 /* LAYOUT */
 
 .wrapper {
