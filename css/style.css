@@ -90,7 +90,7 @@ img {
   flex-wrap: wrap;
   justify-content: flex-start;
 
-  background-color: burlywood;
+  background-color: lightgoldenrodyellow;
   min-height: 500px;
 }
 
@@ -113,7 +113,6 @@ img {
 
 .hero-btn {
   margin: 20px 0 20px 0;
-  padding: 8px;
 }
 
 .hero-section .arrow-down {
@@ -157,7 +156,7 @@ main > .container {
 .biz-plan-type {
   display: flex;
 
-  background-color: grey;
+  background-color: lightgray;
   min-height: 100px;
   border: 1px dashed black;
 }
@@ -221,6 +220,42 @@ main > .container {
 
   background-color: dodgerblue;
   min-height: 200px;
+  border: 1px dashed black;
+}
+
+/* DROPBOX BUSINESS SECTION*/
+
+.biz-ops-section > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 0;
+
+  background-color: lightgray;
+}
+
+.biz-ops-section .card-biz-ops {
+  width: 30%;
+
+  min-height: 400px;
+  background-color: lightskyblue;
+}
+
+.biz-ops-section .card-header {
+  background-color: pink;
+  min-height: 200px;
+  border: 1px dashed black;
+}
+
+.biz-ops-section .card-body {
+  text-align: left;
+  line-height: 1.5rem;
+
+  background-color: dodgerblue;
+  min-height: 100px;
   border: 1px dashed black;
 }
 
