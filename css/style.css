@@ -140,10 +140,12 @@ main > .container {
 .biz-plan-type > .container {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 20px 0;
-  width: 100%;
   flex-wrap: wrap;
   gap: 2rem;
+
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 20px 0;
 }
 
 .biz-plan-type {
@@ -154,7 +156,7 @@ main > .container {
   border: 1px dashed black;
 }
 
-.biz-plan-type .card {
+.biz-plan-type .card-long {
   width: 30%;
 
   background-color: lightcyan;
@@ -162,18 +164,29 @@ main > .container {
   border: 1px dashed black;
 }
 
-/* .card {
-  background-color: lightcyan;
-  min-height: 500px;
-  border: 1px dashed black;
-} */
+.biz-plan-type .card-short {
+  width: 100%;
 
-.card-header {
+  background-color: lightcyan;
+  min-height: 200px;
+  border: 1px dashed black;
+}
+
+.biz-plan-type .card-header {
   padding: 10px;
+  text-align: center;
 
   background-color: darksalmon;
   min-height: 50px;
   border: 1px dashed black;
+}
+
+.biz-plan-type .card-body {
+  padding: 10px;
+  text-align: left;
+
+  min-height: 500px;
+  border: 1px dashed red;
 }
 
 /* FOOTER */
