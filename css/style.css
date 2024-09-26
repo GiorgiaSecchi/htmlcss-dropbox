@@ -33,9 +33,14 @@ ul {
 }
 
 .btn {
-  padding: 8px;
+  padding: 8px 15px 8px 15px;
   border: none;
   cursor: pointer;
+}
+
+.btn-blue {
+  color: white;
+  background-color: mediumblue;
 }
 
 /* LAYOUT */
@@ -50,9 +55,9 @@ ul {
 /* HEADER */
 
 .header-navbar {
-  background-color: lightgray;
-  border: 1px dashed black;
+  background-color: white;
   min-height: 30px;
+  /* border: 1px dashed black; */
 }
 
 .header-navbar-container {
