@@ -321,28 +321,11 @@ main {
   justify-content: space-between;
 }
 
-/* .call-section .text-col {
-  flex-basis: 60%;
+/* FAQ */
 
-  background-color: pink;
-  min-height: 200px;
-  border: 1px dashed black;
+.faq-title > h3 {
+  margin: 30px 0 30px 0;
 }
-
-.call-section .btn-col {
-  flex-basis: 40%;
-  padding: 10px;
-  text-align: left;
-  line-height: 1.5rem;
-
-  background-color: dodgerblue;
-  min-height: 200px;
-  border: 1px dashed black;
-} */
-
-/* .faq-section {
-  background-color: bisque;
-} */
 
 /* FOOTER */
 
