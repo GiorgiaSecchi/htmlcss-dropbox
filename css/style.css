@@ -284,12 +284,15 @@ main {
   display: flex;
 
   background-color: coral;
+  min-height: 100px;
 }
 
 .brands-section .brand-col {
-  width: calc(100% / 3);
+  width: calc(100%vw / 3);
+  height: calc(100%vw / 3);
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 
   border: 1px dashed black;
 }
@@ -304,17 +307,20 @@ main {
   border: 1px dashed black;
 }
 
-.
+.central-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-/* .brand-container {
-  margin: 0;
-  background-color: blueviolet;
-} */
+  width: 100%;
+}
 
 /* CALL TO ACTION  */
 
 .call-section {
-  background-color: lightseagreen;
+  background-color: lightblue;
 }
 
 .call-section .container {
@@ -351,6 +357,7 @@ footer {
   color: white;
   width: 20%;
   line-height: 2rem;
+  margin-top: 30px;
 
   min-height: 250px;
   background-color: darkslateblue;
@@ -365,6 +372,7 @@ footer {
   width: 1400px;
   padding: 10px;
   margin: 0 auto;
+  color: white;
 
   display: flex;
   align-items: center;
