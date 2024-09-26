@@ -65,10 +65,16 @@ h1 {
   font-size: 6rem;
 }
 
+h2 {
+  line-height: 10rem;
+  font-size: 3rem;
+}
+
 h3 {
   font-size: 1.7rem;
   font-weight: bold;
   line-height: 2.5rem;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -79,6 +85,24 @@ h5 {
 
 .card-border {
   border: 1px solid lightgray;
+}
+
+hr {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  width: 25%;
+  color: #d6d6d6;
+}
+
+label {
+  margin-right: 80px;
+}
+
+i {
+  margin-right: 10px;
 }
 
 /* LAYOUT */
@@ -208,7 +232,7 @@ main {
 /* BUSINESS PLAN SECTION */
 
 .biz-plan-section {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .biz-plan-type > .container {
@@ -219,7 +243,7 @@ main {
 
   width: 100%;
   padding: 0;
-  margin: 30px 0 30px 0;
+  margin: 60px 0 60px 0;
 }
 
 .biz-plan-type {
@@ -267,12 +291,13 @@ main {
 }
 
 .card-body ul {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 
 .biz-plan-type .btn-blue {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 /* FIND PARTNER SECTION */
