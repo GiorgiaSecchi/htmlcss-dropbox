@@ -32,6 +32,12 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+
 .btn {
   padding: 8px 15px 8px 15px;
   border: none;
@@ -48,6 +54,29 @@ ul {
 .btn-blue {
   color: white;
   background-color: #1e40ff;
+  padding: 15px;
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 4rem;
+}
+
+.card-border {
+  border: 1px solid lightgray;
 }
 
 /* LAYOUT */
@@ -154,17 +183,6 @@ ul {
   border: 1px dashed black; */
 }
 
-h1 {
-  color: black;
-  font-size: 6rem;
-}
-
-h3 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  line-height: 2rem;
-}
-
 /* MAIN */
 
 main {
@@ -183,7 +201,7 @@ main {
 /* BUSINESS PLAN SECTION */
 
 .biz-plan-section {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .biz-plan-type > .container {
@@ -200,42 +218,50 @@ main {
 .biz-plan-type {
   display: flex;
 
-  background-color: lightgray;
+  /* background-color: lightgray;
   min-height: 100px;
-  border: 1px dashed black;
+  border: 1px dashed black; */
 }
 
 .biz-plan-type .card-long {
   width: 30%;
 
-  background-color: lightcyan;
-  min-height: 500px;
-  border: 1px dashed black;
+  /* background-color: lightcyan;
+  min-height: 500px; */
 }
 
 .biz-plan-type .card-short {
   width: 100%;
 
-  background-color: lightcyan;
-  min-height: 200px;
-  border: 1px dashed black;
+  /* background-color: lightcyan;
+  min-height: 200px; */
 }
 
 .biz-plan-type .card-header {
   padding: 10px;
   text-align: center;
+  border-bottom: 1px solid lightgrey;
 
-  background-color: darksalmon;
-  min-height: 50px;
-  border: 1px dashed black;
+  /* background-color: darksalmon;
+  min-height: 50px; */
 }
 
 .biz-plan-type .card-body {
-  padding: 10px;
+  padding: 40px;
   text-align: left;
+  line-height: 2rem;
 
-  min-height: 500px;
-  border: 1px dashed red;
+  /* min-height: 500px;
+  border: 1px dashed red; */
+}
+
+.card-body p:first-of-type {
+  font-weight: bold;
+}
+
+.card-body ul {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /* FIND PARTNER SECTION */
