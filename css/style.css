@@ -40,7 +40,7 @@ ul {
 
 .btn-blue {
   color: white;
-  background-color: mediumblue;
+  background-color: #1e40ff;
 }
 
 /* LAYOUT */
@@ -95,12 +95,12 @@ ul {
 
 .hero-section {
   background-color: #b9cfe6;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 .hero-section > .container {
   width: 1400px;
-  padding: 10px;
+  padding: 50px 10px 10px 10px;
   margin: 0 auto;
 
   position: relative;
@@ -110,38 +110,41 @@ ul {
   flex-wrap: wrap;
   justify-content: flex-start;
 
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
   min-height: 500px;
 }
 
 .hero-section .hero-content {
   flex-basis: 30%;
-  padding-top: 10px;
-  line-height: 25px;
+  padding-top: 50px;
+  line-height: 30px;
 
-  background-color: cadetblue;
-  border: 1px dashed black;
+  /* background-color: cadetblue;
+  border: 1px dashed black; */
 }
 
 .hero-section .hero-img {
   flex-basis: 70%;
   position: relative;
+  top: 50px;
 
-  background-color: gold;
-  border: 1px dashed black;
+  /* background-color: gold;
+  border: 1px dashed black; */
 }
 
-.hero-btn {
-  margin: 20px 0 20px 0;
+.btn-hero {
+  margin: 30px 0 30px 0;
+  padding: 10px 30px 10px 30px;
 }
 
 .hero-section .arrow-down {
-  align-content: center;
-
-  background-color: darkgreen;
-  border: 1px dashed black;
+  align-content: end;
+  /* padding-bottom: 20px; */
+  padding-top: 30px;
   min-height: 100px;
-  padding-bottom: 20px;
+
+  /* background-color: darkgreen;
+  border: 1px dashed black; */
 }
 
 h1 {
@@ -165,6 +168,10 @@ main {
 } */
 
 /* BUSINESS PLAN SECTION */
+
+.biz-plan-section {
+  margin-top: 100px;
+}
 
 .biz-plan-type > .container {
   display: flex;
