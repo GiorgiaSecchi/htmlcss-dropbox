@@ -9,10 +9,17 @@
 
 /* UTILS */
 
-.container {
+/* .container {
   margin: 0 auto;
   padding: 0 10px;
   width: 1000px;
+  max-width: 100%;
+} */
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 1200px;
   max-width: 100%;
 }
 
@@ -84,7 +91,10 @@ img {
 .hero-section > .container {
   width: 1400px;
   padding: 10px;
-  margin-top: 50px;
+  margin: 0 auto;
+
+  position: relative;
+  top: 50px;
 
   display: flex;
   flex-wrap: wrap;
@@ -116,12 +126,12 @@ img {
 }
 
 .hero-section .arrow-down {
-  align-content: end;
-  margin-top: 40px;
+  align-content: center;
 
   background-color: darkgreen;
   border: 1px dashed black;
-  min-height: 60px;
+  min-height: 100px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -135,10 +145,14 @@ main {
   flex-grow: 1;
 }
 
-main > .container {
+/* .biz-plan-section,
+.find-partner-section,
+.biz-ops-section > .container {
   width: 1200px;
   padding: 20px;
-}
+  margin: 0 auto;
+  max-width: 100%;
+} */
 
 /* BUSINESS PLAN SECTION */
 
@@ -199,9 +213,9 @@ main > .container {
 .find-partner-section > .container {
   display: flex;
 
-  width: 100%;
+  /* width: 100%;
   padding: 0;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 30px 0; */
 }
 
 .find-partner-section .img-col {
@@ -258,6 +272,77 @@ main > .container {
   min-height: 100px;
   border: 1px dashed black;
 }
+
+/* BRAND */
+
+.brand-container {
+  margin: 0;
+  background-color: blueviolet;
+}
+/* 
+.brand-section .brand-container {
+  display: flex;
+
+  background-color: gray;
+  border: 1px dashed black;
+  min-height: 100px;
+}
+
+.brand-section .brand.col {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100%vw / 3);
+  height: calc(100vw / 3);
+}
+
+.brand-section .brand-square {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aquamarine;
+}
+
+.brand-logo {
+  width: 50%;
+  height: 50%;
+} */
+
+/* CALL TO ACTION  */
+
+.call-section {
+  background-color: lightblue;
+}
+
+.call-section .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .call-section .text-col {
+  flex-basis: 60%;
+
+  background-color: pink;
+  min-height: 200px;
+  border: 1px dashed black;
+}
+
+.call-section .btn-col {
+  flex-basis: 40%;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.5rem;
+
+  background-color: dodgerblue;
+  min-height: 200px;
+  border: 1px dashed black;
+} */
+
+/* .faq-section {
+  background-color: bisque;
+} */
 
 /* FOOTER */
 
