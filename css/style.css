@@ -318,7 +318,7 @@ main {
 
 .call-section .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* .call-section .text-col {
