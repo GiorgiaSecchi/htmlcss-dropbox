@@ -280,45 +280,41 @@ main {
 
 /* BRAND */
 
-.brand-container {
-  margin: 0;
-  background-color: blueviolet;
-}
-/* 
-.brand-section .brand-container {
+.brands-section .row {
   display: flex;
 
-  background-color: gray;
-  border: 1px dashed black;
-  min-height: 100px;
+  background-color: coral;
 }
 
-.brand-section .brand.col {
+.brands-section .brand-col {
+  width: calc(100% / 3);
   display: flex;
   flex-wrap: wrap;
-  width: calc(100%vw / 3);
-  height: calc(100vw / 3);
+
+  border: 1px dashed black;
 }
 
-.brand-section .brand-square {
+.brands-section .brand-square {
   width: 50%;
-  height: 50%;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: aquamarine;
+  border: 1px dashed black;
 }
 
-.brand-logo {
-  width: 50%;
-  height: 50%;
+.
+
+/* .brand-container {
+  margin: 0;
+  background-color: blueviolet;
 } */
 
 /* CALL TO ACTION  */
 
 .call-section {
-  background-color: lightblue;
+  background-color: lightseagreen;
 }
 
 .call-section .container {
